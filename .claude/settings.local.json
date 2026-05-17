@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(python \"C:\\\\Users\\\\T\\\\TestProject\\\\main.py\")"
+    ]
+  },
+  "spinnerTipsEnabled": true,
+  "outputStyle": "default"
+}

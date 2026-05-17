@@ -1,0 +1,23 @@
+{
+  "name": "discord-music-bot",
+  "version": "1.0.0",
+  "description": "Discord music bot with song and genre playback",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js"
+  },
+  "dependencies": {
+    "@discord-player/extractor": "^4.5.0",
+    "@discordjs/voice": "^0.19.2",
+    "@distube/ytdl-core": "^4.16.12",
+    "discord-player": "^6.7.0",
+    "discord-player-youtubei": "^2.0.0",
+    "discord.js": "^14.16.0",
+    "dotenv": "^16.4.0",
+    "ffmpeg-static": "^5.2.0",
+    "opusscript": "^0.0.8",
+    "play-dl": "^1.9.7",
+    "youtube-dl-exec": "^3.1.7"
+  }
+}
