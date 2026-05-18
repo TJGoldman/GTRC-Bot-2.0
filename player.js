@@ -9,7 +9,7 @@ const {
 } = require('@discordjs/voice');
 const { spawn } = require('child_process');
 const { PassThrough } = require('stream');
-const ffmpegPath = require('ffmpeg-static');
+const ffmpegPath = 'ffmpeg';
 const { exec: ytdlExec } = require('youtube-dl-exec');
 const { getClientId: scClientId } = require('./soundcloud');
 
